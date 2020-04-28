@@ -1,0 +1,354 @@
+[
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [33.5275, -112.2625]
+	  },
+	  "properties": {
+	    "name": "Arizona Cardinals",
+	    "description":"Cardinals"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [53.647828, -1.79016]
+	  },
+	  "properties": {
+	    "name": "Atlanta Falcons",
+	    "description":"Falcons"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [39.278056, -76.622778]
+	  },
+	  "properties": {
+	    "name": "Baltimore Ravens",
+	    "description":"`Ravens`"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [42.773611, -78.786944]
+	  },
+	  "properties": {
+	    "name": "Buffalo Bills",
+	    "description":"Bills"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [35.225833, -80.852778]
+	  },
+	  "properties": {
+	    "name": "Carolina Panthers",
+	    "description":"Panthers"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [41.8625, -87.616667]
+	  },
+	  "properties": {
+	    "name": "Chicago Bears",
+	    "description":"Bears"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [53.658964, -1.788794]
+	  },
+	  "properties": {
+	    "name": "`Cincinnati Bengals`",
+	    "description":"Bengals"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [41.506111, -81.699444]
+	  },
+	  "properties": {
+	    "name": "Cleveland Browns",
+	    "description":"Browns"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [32.747778, -97.092778]
+	  },
+	  "properties": {
+	    "name": "Dallas Cowboys",
+	    "description":"Cowboys"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [53.658964, -1.788794]
+	  },
+	  "properties": {
+	    "name": "Denver Broncos",
+	    "description":"Broncos"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [53.658964, -1.788794]
+	  },
+	  "properties": {
+	    "name": "Detroit Lions",
+	    "description":"Lions"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [44.501389, -88.062222]
+	  },
+	  "properties": {
+	    "name": "Green Bay Packers",
+	    "description":"Packers"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [29.684722, -95.410833]
+	  },
+	  "properties": {
+	    "name": "Houston Texans",
+	    "description":"Texans"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [53.658964, -1.788794]
+	  },
+	  "properties": {
+	    "name": "Indianapolis Colts",
+	    "description":"Colts"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [53.658964, -1.788794]
+	  },
+	  "properties": {
+	    "name": "Jacksonville Jaguars",
+	    "description":"Jaguars"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [39.048889, -94.483889]
+	  },
+	  "properties": {
+	    "name": "Kansas City Chiefs",
+	    "description":"Chiefs"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [53.658964, -1.788794]
+	  },
+	  "properties": {
+	    "name": "Las Vegas Raiders",
+	    "description":"Raiders"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [53.658964, -1.788794]
+	  },
+	  "properties": {
+	    "name": "Los Angeles Chargers",
+	    "description":"Chargers"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [53.658964, -1.788794]
+	  },
+	  "properties": {
+	    "name": "Los Angeles Rams",
+	    "description":"Rams"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [25.958056, -80.238889]
+	  },
+	  "properties": {
+	    "name": "Miami Dolphins",
+	    "description":"Dolphins"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [53.658964, -1.788794]
+	  },
+	  "properties": {
+	    "name": "Minnesota Vikings",
+	    "description":"Vikings"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [53.658964, -1.788794]
+	  },
+	  "properties": {
+	    "name": "New England Patriots",
+	    "description":"Patriots"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [29.950833, -90.081111]
+	  },
+	  "properties": {
+	    "name": "New Orleans Saints",
+	    "description":"Saints"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [53.658964, -1.788794]
+	  },
+	  "properties": {
+	    "name": "New York Giants",
+	    "description":"Giants"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [53.658964, -1.788794]
+	  },
+	  "properties": {
+	    "name": "New York Jets",
+	    "description":"Jets"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [39.900833, -75.1675]
+	  },
+	  "properties": {
+	    "name": "Philidelphia Eagles",
+	    "description":"Eagles"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [53.658964, -1.788794]
+	  },
+	  "properties": {
+	    "name": "Pittsburgh Steelers",
+	    "description":"Steelers"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [53.658964, -1.788794]
+	  },
+	  "properties": {
+	    "name": "San Francisco 49ers",
+	    "description":"49ers"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [47.595278, -122.331667]
+	  },
+	  "properties": {
+	    "name": "Seattle Seahawks",
+	    "description":"Seahawks"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [53.658964, -1.788794]
+	  },
+	  "properties": {
+	    "name": "Tampa Bay Buccnaneers",
+	    "description":"Bucks"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [36.166389, -86.771389]
+	  },
+	  "properties": {
+	    "name": "Tennessee Titans",
+	    "description":"Titans"
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {
+	    "type": "Point",
+	    "coordinates": [53.658964, -1.788794]
+	  },
+	  "properties": {
+	    "name": "Washington Redskins",
+	    "description":"Redskins"
+	  }
+	}
+]
