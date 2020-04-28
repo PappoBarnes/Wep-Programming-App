@@ -116,7 +116,7 @@ p {
   border-radius: 5px;
   width: 200px;
   position: relative;
-  top: -200px;
+  top: 200px;
   left: 20px;
   z-index: 1000; }
 
@@ -185,9 +185,9 @@ p {
 
 @media screen and (max-width: 375px) {
   #bodyMain {
-    max-width: 414px; } }
+    max-width: 375px; } }
 @media screen and (max-width: 320px) {
   #bodyMain {
-    max-width: 414px; } }
+    max-width: 320px; } }
 
 /*# sourceMappingURL=app.css.map */
