@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>NFL ARRESTS</title>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<meta charset="utf-8">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">ß -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8" >
+<!-- FONTAWESOME -->
+<link rel="stylesheet" type="text/css" href="SCSS/app.css">
+<link rel="stylesheet" type="text/css" href="css/all.css">
+<link rel="stylesheet" type="text/css" href="css/brands.css">
+<link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+<link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@700&display=swap" rel="stylesheet">
+<script defer src="js/all.js"></script>
+<script defer src="js/brands.js"></script>
+<script defer src="js/fontawesome.js"></script>
+
+
+
+<!-- Bootstrap CSS -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+<!-- <link rel="stylesheet" media="(min-width:600px)" href="mediaQ600.css">
+<link rel="stylesheet" media="(min-width:425px)" href="425.css"> -->
+<!-- <link rel="stylesheet" media="(max-width:900px)" href="mediaQ900.css"> -->
+<!-- Link to Leaflet's JavaScript -->
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+crossorigin=""></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+crossorigin=""/>
+
+<!-- Dimple - Minfied js -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<!-- Dimple - Main js code -->
+<script src="http://dimplejs.org/dist/dimple.v2.3.0.min.js"></script>
+
+<script>
+window.onload = function() {
+  // MAPS
+  document.getElementById("mapDiv").style.display="none";
+  document.getElementById("map").style.display="none";
+  // TITLE
+  document.getElementById("titleDiv").style.display="none";
+  // TEAM CRIME
+  document.getElementById("teamCrimeDiv").style.display="none";
+  //  MAIN SEARCH
+  document.getElementById("searchForm").style.visibility="visible";
+  document.getElementById("searchDiv").style.display="block";
+
+  // CRIME SEARCH
+  // document.getElementById("searchPlayerForm").style.display="none";
+  document.getElementById("crimeDiv").style.display="none";
+
+  // PLAYER DIV
+  document.getElementById("playersDiv").style.display="none";
+  // MAP
+  document.getElementById("infoDiv").style.display="none";
+
+  // CHARTS
+  document.getElementById("chartContainer_1").style.display="none";
+  document.getElementById("chartContainer_2").style.display="none";
+  document.getElementById("chartContainer_3").style.display="none";
+};
+
+
+</script>
+</head>
+
+<body class="body">
+
+<!-- /////HEADER///// -->
+<header class="header">
+  <!-- <h1></h1> -->
+  <h1></h1>
+  <div id="logo"><a href="index.html"><img src="/images/NFL.png"></a><div>
+  <h1></h1>
+  <!-- <h1></h1> -->
+</header>
+<!-- /////END///////// -->
+<!-- /////SECTION///// -->
+<section id="bodyMain">
+
+  <!-- /////SEARCH FORM///// -->
+  <div id="searchForm">
+  <label for="searchBox">Search NFL Arrest</label>
+  <input id="searchBox" type="text" placeholder="Search Crime">
+  <button id="searchBtn">GO</button>
+  </div>
+  <!-- /////END///// -->
+  <!-- /////SEARCH FORM///// -->
+  <!-- <div id="searchPlayerForm">
+  <label for="searchPlayer">Search NFL Arrest</label>
+  <input id="searchPlayer" type="text" placeholder="Search Player">
+  <button id="searchPlayerBtn">Search</button>
+  </div> -->
+
+  <!-- /////END///// -->
+
+  <div id="titleDiv"></div>
+  <div id="chartTitle"></div>
+
+  <!-- /////DATA CONTAINERS///// -->
+    <div id="searchDiv"></div>
+    <div id="teamDiv"></div>
+    <div id="teamCrimeDiv"></div>
+    <div id="chartContainer_2"></div>
+    <div id="playersDiv"></div>
+    <div id="crimeDiv"> </div>
+    <div id="mapDiv"></div>
+    <div id="map"></div>
+    <div id="infoDiv" class="info">
+    <h4 id="teamName"></h4>
+    <p id="teamDesc"></p>
+    <p id="arrestCount"></p>
+
+    </div>
+    <div id="chartContainer_1"></div>
+
+    <div id="chartContainer_3"></div>
+
+
+
+
+
+  </section >
+<!-- /////END///// -->
+<!-- /////FOOTER///// -->
+<footer class="footer">
+<div class="menu-bar">
+<!-- <button class="menu-bar__button teams">Teams</button> -->
+<i id="teamBtn" type="button" class = "menu-bar__button fas fa-football-ball" onclick="teamBtn();"/></i>
+<i id="playerBtn" type="button" class = "menu-bar__button " onclick="playerBtn();"/><img src="images/helmet.png"></i>
+<!-- <i id="crimeBtn" type="button" value="C" class = "menu-bar__button" onclick="crimeBtn();"/><img src="images/cuffs.png"></i> -->
+<i id="searchButton" type="button" class = "menu-bar__button" onclick="searchButton();"/><img src="images/cuffs.png"></i>
+<i id="mapBtn" type="button" class = "menu-bar__button fas fa-map-pin"  onclick="mapBtn();" /></i>
+<i id="chartBtn" type="button" class = "menu-bar__button fas fa-chart-pie"  onclick="chartBtn();" /></i>
+
+</footer>
+<!-- /////END///// -->
+
+<!-- Scripts -->
+<script  type="text/javascript" src="js/nflMap.js"></script>
+<script  type="text/javascript"  src="js/teamButton.js"></script>
+<script  type="text/javascript"  src="js/search.js"></script>
+<script  type="text/javascript"  src="js/chartButton.js"></script>
+<!-- <script  type="text/javascript"  src="js/searchPlayers.js"></script> -->
+<!-- <script  type="text/javascript"  src="js/searchButton.js"></script> -->
+<!-- <script  type="text/javascript"  src="js/crimeButton.js"></script> -->
+<script  type="text/javascript"  src="js/playersButton.js"></script>
+
+</body>
+</html>
